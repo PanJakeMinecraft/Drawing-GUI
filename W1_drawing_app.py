@@ -7,6 +7,7 @@ from functools import partial
 # create a list of colors
 COLORS = ["white", "black", "#5ec623", "#f5d00e", "#0e51f5", "#ada5f9", "#00aefe", "#498600", "#025900", "#b91800", "#9000bb", "#fb6700", "#fb00e1", "#fcb9f5"]
 
+# create canvas class...
 class Canvas(QLabel):
     def __init__(self):
         super().__init__()
